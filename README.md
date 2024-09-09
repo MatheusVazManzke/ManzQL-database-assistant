@@ -7,4 +7,4 @@ The user interface is done with Streamlit. It allows me to connect to any databa
 ![Alt Text](https://github.com/MatheusVazManzke/ManzQL-database-assistant/blob/main/images/example1.png)
 
 Using natural language, I can ask the agent to query my database. In the example bellow, I have uploaded the classic titanic dataset to a local mysql database.
-![Alt Text](https://github.com/MatheusVazManzke/ManzQL-database-assistant/blob/main/images/example1.png)
+![Alt Text](https://github.com/MatheusVazManzke/ManzQL-database-assistant/blob/main/images/example2.png)
