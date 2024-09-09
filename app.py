@@ -17,7 +17,7 @@ if 'db_connector' not in st.session_state:
 
 
 # Streamlit interface
-st.title("ManzQL - Your database assistant by ManzkeLabs")
+st.title("ManzQL - Your database assistant")
 
 # User inputs for database connection details
 st.sidebar.header("Database Connection Details")
@@ -71,7 +71,7 @@ else:
 # Chat Interface
 if "messages" not in st.session_state: # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "Ask me a question your database"}
+        {"role": "assistant", "content": "How may I help you?"}
     ]
     
 if "chat_engine" not in st.session_state: # Initialize the chat engine
